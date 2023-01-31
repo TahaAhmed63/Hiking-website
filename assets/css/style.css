@@ -66,6 +66,12 @@ header {
     position: absolute;
     top: 0;
     z-index: 99999;
+    background-image: url(../images/Shape.png);
+    width: 1363px;
+    height: 195px;
+    left: -13px;
+    top: 0px;
+    padding: 9px;
 
 
 
@@ -101,6 +107,9 @@ header {
 
 
 
+}
+.toggle{
+    display: none;
 }
 
 .input {
@@ -380,7 +389,16 @@ grid-template-rows: repeat( 1fr);
 
     }
     
-    .menu-1 { grid-area: 1 / 1 / 2 / 2; }
+    .menu-1 { grid-area: 1 / 1 / 2 / 2;
+    
+        height:700px;
+        width:712px;
+    
+    }
+    .menu-1 img{
+        height:700px;
+        width:712px;
+    }
     .menu-2 { 
         
         grid-area: 1 / 2 / 2 / 4;
@@ -423,7 +441,13 @@ grid-template-rows: repeat( 1fr);
     }
     .menu-4{
         grid-area: 1 / 2 / 2 / 2;
+      
 
+    }
+    .menu-4 img{
+        height:700px ;
+    
+        width:640px;
     }
     
     
@@ -470,6 +494,15 @@ grid-template-rows: repeat( 1fr);
     border-radius: 50px;
     align-items: end;
     background: rgba(226, 163, 85, 1);
+}
+.sec-image{
+    
+        background-image: url(../images/Design.png);
+        position: relative;
+        width: 1340px;
+        height: 905px;
+        background-position-x: 70%;
+    
 }
 
 .sec-image h1{ 
@@ -856,4 +889,213 @@ margin: 5px;
     text-align: left;
     color: #FFFFFF;
     margin: 5px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 25%;
+    }
+    body{
+        padding: 0;
+    }
+    header{
+        width: 400px;
+    }
+    .carly-shape-last{
+        width: 400px;
+    }
+    .banner-tittle h1{
+        width: 79px;
+        /* height: 79px; */
+        top: 64rem;
+        font-size: 32px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu-1 img{
+        height:400px;
+         width:342px;
+    }
+    .menu-4 img{
+        height:400px;
+        width:342px;
+    }
+    .sub-text{
+        width: 84px;
+            height: 66px;
+            top: 64rem;
+    }
+    .menu-1{
+        width: 352px;
+        height: 401px;
+    }
+    .menu-2{
+        width: 352px;
+        height: 508px
+  
+    }
+    .menu-info h1{
+        width: 234px;
+        height: 154px;
+        font-size: 32px;
+
+
+    }
+    .menu-info p{
+        width: 279px;
+        height: 168px;
+        font-size: 16px;
+    }
+    .menu-3{
+        width: 352px;
+        height: 508px
+
+    }
+    .button-3{
+        top: -1rem;
+    }
+    
+.card-1 img{
+    width: 271px;
+}
+.card-1{
+    width: 271px;
+    margin-bottom: 34px;
+}
+.card-2 img{
+    width: 271px;
+}
+.card-2{
+    width: 271px;
+    margin-bottom: 34px;
+}
+.card-3 img{
+    width: 271px;
+}
+.button2 {
+    left: 0;
+    width: 209px;
+
+}
+.background{
+
+    top: -35rem;
+    width: 742px;
+
+
+
+}
+.sec-image{
+    width: 390px;
+}
+.sec-image h1{
+    top: 61rem;
+    font-size: 28px;
+}
+.sec-image p{
+    top: 64rem;
+    font-size: 20px;
+    left: 0;
+    width: 364px;
+}
+.hiker-img{
+    width: 400px;
+}
+.review{
+    display: block;
+}
+.footer{
+    height: 810px;
+    width: 400px;
+    display: block;
+}
+.footer-info p {
+    width: 228px;
+    font-size: 15px;
+}
+.socail-images{
+    top: 27rem;
+}
+.footer-info-2{
+    display: flex;
+    flex-flow: column;
+}
+.details h1{
+    font-size: 21px;
+}
+.details p{
+    font-size: 15px;
+}
+.details-2 h1{
+    font-size: 21px;
+}
+.details-2 p{
+    font-size: 15px;
+}
+.input{
+    display: none;
+}
+.details-3 h1{
+    font-size: 21px;
+}
+.fa-search{
+  left: 0;
+
+}
+.details-3 p{
+    font-size: 15px;
+}
+.carly-shape{
+    width: 400px;
+}
+.card-3{
+    width: 271px;
+    margin-bottom: 34px;
+}
+.adventure {
+    height: 1992px;}
+
+.card-info p{
+top: 86rem;
+}
+.button .btn{
+    top: 67rem;
+}
+    .p-info p{
+        width: 249px;
+        top: 74rem;
+    }
+    .adven-info p{
+        width: 297px;
+        line-height: 17.1px;
+    }
+    .cards{
+        display: block;
+    }
+    .adven-info h3{
+        width: 329px;
+    }
+    .flex {
+        display: none;
+    }
+ .toggle {
+    display: block;
+}
+.home{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 53px;
+    left: 0px;
+    height: 125vh;
+    width: 100%;
+}
+}
+@media only screen and (max-width : 320px) {
+   
+
+
 }
