@@ -89,7 +89,7 @@ header {
     top: 0px;
 }
 
-.logo-img {
+.logo {
     left: 4rem;
     top: 3.5rem;
     position: absolute;
@@ -108,6 +108,13 @@ header {
 
 
 }
+.navlinks a:hover{
+    color: #DEB37E;
+    transition: .10s ease-in;
+}
+
+
+
 .toggle{
     display: none;
 }
@@ -894,11 +901,38 @@ margin: 5px;
 
 
 @media screen and (max-width: 768px){
+    .logo {
+        display: block;
+        left: 9rem;
+    
+        top: 11.5rem;
+        position: absolute;
+    }
+   .toggle-shape{
+    background: #DEB37E;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 12px 22px;
+   }
+   .toggle {
+    display: block;
+    /* left: 76rem; */
+    text-align: right;
+    align-items: end;
+    position: relative;
+}
     html{
         font-size: 25%;
+        overflow-x: hidden;
     }
     body{
-        padding: 0;
+       
+            overflow-x: hidden;
+        
     }
     header{
         width: 400px;
@@ -906,10 +940,14 @@ margin: 5px;
     .carly-shape-last{
         width: 400px;
     }
-    .banner-tittle h1{
+    .banner-tittle {
         width: 79px;
         /* height: 79px; */
-        top: 64rem;
+        top: 37rem;
+        font-size: 32px;
+        position: relative;
+    }
+    .banner-tittle h1{
         font-size: 32px;
     }
     .menu{
@@ -1083,7 +1121,34 @@ top: 86rem;
     }
  .toggle {
     display: block;
-}
+  
+        display: block;
+        top: 15rem;
+  
+    }
+    header .flexsmall {
+        /* background-color: rgb(0 0 0 / 75%); */
+     
+            /* background-color: rgb(0 0 0 / 75%); */
+            background-color: rgb(255, 255, 255);
+            left: 0;
+            padding: 16px;
+            position: absolute;
+            top: 21vh;
+            height:50vh;
+            width: 100%;
+        
+    }
+    .navlinks{
+       
+     
+            margin: 10px;
+            padding: 24px 2px;
+        
+
+    }
+    
+    
 .home{
     background-position: 50%;
     background-repeat: no-repeat;
